@@ -16,13 +16,13 @@ int main()
 
     char arr3[10];
 
-    // arr3 = "apna college";  we can't do this 
+   // arr3 = "apna college";  //we can't do this 
 
     char work[] = "code";
     cout<<work<<endl;
 
-    // char work2[4] = "code";   initializer-string for array of chars is too long
-    // cout<<work2<<endl;
+    char work2[5] = "code";  // initializer-string for array of chars is too long
+    cout<<work2<<endl;
 
     char work3[5] = "code";
     cout<<work3<<endl;
